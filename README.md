@@ -25,7 +25,7 @@ YoutubeMp3Converter é uma aplicação Windows Forms que permite aos usuários b
 1. Clone o repositório:
 
     ```sh
-    git clone https://github.com/seu-usuario/YoutubeMp3Converter.git
+    git clone https://github.com/vabarboza/YoutubeMp3Converter.git
     ```
 
 2. Abra o projeto no Visual Studio.
