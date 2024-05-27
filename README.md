@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vabarboza/YoutubeMp3Converter/master/Resources/image.png" alt="YouTube MP3 Converter Logo">
+</p>
+
 # Youtube Mp3 Converter
 
 YoutubeMp3Converter é uma aplicação Windows Forms que permite aos usuários baixar vídeos do YouTube e convertê-los para o formato MP3. A aplicação também salva e carrega configurações, incluindo o diretório de saída e o estado de uma checkbox.
