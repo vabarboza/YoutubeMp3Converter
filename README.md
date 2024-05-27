@@ -15,7 +15,7 @@ YoutubeMp3Converter é uma aplicação Windows Forms que permite aos usuários b
 
 ## Pré-requisitos
 
-- [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/net48)
+- [.NET Core 8](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [MediaToolkit](https://www.nuget.org/packages/MediaToolkit/)
 - [YoutubeExplode](https://www.nuget.org/packages/YoutubeExplode/)
 - [SharpConfig](https://www.nuget.org/packages/SharpConfig/)
