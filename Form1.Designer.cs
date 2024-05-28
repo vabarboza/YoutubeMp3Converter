@@ -41,6 +41,7 @@
             btnAddVideo = new Button();
             btnClean = new Button();
             cbSaveVideo = new CheckBox();
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -91,7 +92,7 @@
             // 
             // btnDownload
             // 
-            btnDownload.Location = new Point(12, 369);
+            btnDownload.Location = new Point(12, 380);
             btnDownload.Name = "btnDownload";
             btnDownload.Size = new Size(125, 23);
             btnDownload.TabIndex = 5;
@@ -130,7 +131,7 @@
             // 
             listBoxLinks.FormattingEnabled = true;
             listBoxLinks.ItemHeight = 15;
-            listBoxLinks.Location = new Point(12, 209);
+            listBoxLinks.Location = new Point(12, 220);
             listBoxLinks.Name = "listBoxLinks";
             listBoxLinks.Size = new Size(540, 154);
             listBoxLinks.TabIndex = 9;
@@ -147,7 +148,7 @@
             // 
             // btnClean
             // 
-            btnClean.Location = new Point(427, 369);
+            btnClean.Location = new Point(427, 380);
             btnClean.Name = "btnClean";
             btnClean.Size = new Size(125, 23);
             btnClean.TabIndex = 11;
@@ -158,18 +159,30 @@
             // cbSaveVideo
             // 
             cbSaveVideo.AutoSize = true;
-            cbSaveVideo.Location = new Point(143, 373);
+            cbSaveVideo.Location = new Point(143, 384);
             cbSaveVideo.Name = "cbSaveVideo";
             cbSaveVideo.Size = new Size(95, 19);
             cbSaveVideo.TabIndex = 12;
             cbSaveVideo.Text = "Salvar Videos";
             cbSaveVideo.UseVisualStyleBackColor = true;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(12, 202);
+            label3.Name = "label3";
+            label3.Size = new Size(113, 15);
+            label3.TabIndex = 13;
+            label3.Text = "Lista de Downloads";
+            // 
             // mainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.MenuBar;
             ClientSize = new Size(564, 561);
+            Controls.Add(label3);
             Controls.Add(cbSaveVideo);
             Controls.Add(btnClean);
             Controls.Add(btnAddVideo);
@@ -188,8 +201,8 @@
             Name = "mainForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Youtube Audio Downloader";
-            Load += mainForm_Load;
             FormClosing += mainForm_FormClosing;
+            Load += mainForm_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -210,5 +223,6 @@
         private Button btnAddVideo;
         private Button btnClean;
         private CheckBox cbSaveVideo;
+        private Label label3;
     }
 }
